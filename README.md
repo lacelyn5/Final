@@ -6,9 +6,13 @@ Project Overview
 The Event Management System is a web-based application designed to manage events. Built with PHP for backend logic and MySQL for database management, the application allows users to register, log in, and manage their events. Docker Compose is used to set up the entire environment for the project.
 
 Technologies Used
+
 PHP 8.1: Backend logic
+
 MySQL: Database management
+
 Docker: Containerization
+
 phpMyAdmin: Web interface for managing the MySQL database
 
 Setup Instructions
