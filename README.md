@@ -29,6 +29,19 @@ Click the green "Code" button.
 Select "Download ZIP" from the options.
 Extract the ZIP file to your desired location on your computer.
 
+Alternatively
+
+Open Git Bash or Command Prompt on your local machine.
+
+Navigate to the location where you want to clone the repository.
+
+Clone the repository using the command:
+
+
+git clone https://github.com/lacelyn5/Final.git
+
+This command will download your entire project folder from GitHub to your local machine. 
+
 2. Build and Start the Containers
 
 Open a CMD window go to the folder where the project is located
