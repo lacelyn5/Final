@@ -1,3 +1,5 @@
+Authors
+Maxim Kernazhytski - 46589
 Event Management System
 Project Overview
 The Event Management System is a web-based application designed to manage events. Built with PHP for backend logic and MySQL for database management, the application allows users to register, log in, and manage their events. Docker Compose is used to set up the entire environment for the project.
@@ -49,9 +51,6 @@ Select the event_management database (create it if it doesn’t exist).
 
 Click the SQL tab and paste the following SQL code to create the necessary tables:
 
-sql
-Копировать
-Редактировать
 CREATE DATABASE IF NOT EXISTS event_management;
 
 USE event_management;
@@ -85,6 +84,4 @@ Delete events
 Troubleshooting
 If the application doesn't start, ensure Docker and Docker Compose are correctly installed.
 If you encounter issues with phpMyAdmin, double-check the login credentials in docker-compose.yml.
-Authors
-Lacelyn - [Student Number]
-Maxim Kernazhytski - 46589
+
