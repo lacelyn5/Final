@@ -30,6 +30,8 @@ Select "Download ZIP" from the options.
 Extract the ZIP file to your desired location on your computer.
 
 2. Build and Start the Containers
+Open a CMD window go to the folder where the project is located
+
 Use Docker Compose to build and start the application containers:
 
 docker-compose up --build
