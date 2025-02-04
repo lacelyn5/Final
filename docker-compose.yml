@@ -12,7 +12,7 @@ services:
       - app_network
   db:
     image: mysql:5.7  
-    container_name: event_management_db
+    container_name: event_management_dbs
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
