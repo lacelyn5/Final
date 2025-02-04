@@ -16,6 +16,7 @@ Docker: Containerization
 phpMyAdmin: Web interface for managing the MySQL database
 
 Setup Instructions
+
 Prerequisites
 To get started with the Event Management System, ensure the following are installed:
 Docker
