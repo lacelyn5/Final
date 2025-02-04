@@ -85,9 +85,7 @@ Click the SQL tab and paste the following SQL code:
 
 CREATE DATABASE IF NOT EXISTS event_management;
 
-
 USE event_management;
-
 
 CREATE TABLE IF NOT EXISTS users (
     
@@ -100,7 +98,6 @@ CREATE TABLE IF NOT EXISTS users (
     email VARCHAR(100) NOT NULL UNIQUE
 
 );
-
 
 CREATE TABLE IF NOT EXISTS events (
     
