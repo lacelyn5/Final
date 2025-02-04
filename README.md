@@ -102,8 +102,8 @@ CREATE TABLE IF NOT EXISTS events (
     event_date DATETIME NOT NULL,
     location VARCHAR(255) NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-
 );
+
 Click Go to execute the SQL and create the tables manually.
 
 This manual setup is optional, as the database is already pre-configured during deployment.
