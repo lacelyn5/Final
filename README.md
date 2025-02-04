@@ -81,8 +81,6 @@ Select the event_management database (it should already exist). If not, create i
 
 Click the SQL tab and paste the following SQL code:
 
-
-
 CREATE DATABASE IF NOT EXISTS event_management;
 
 USE event_management;
@@ -104,7 +102,7 @@ CREATE TABLE IF NOT EXISTS events (
     id INT AUTO_INCREMENT PRIMARY KEY,
     
     user_id INT NOT NULL,
-    
+
     name VARCHAR(100) NOT NULL,
    
     description TEXT,
