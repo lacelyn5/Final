@@ -84,4 +84,3 @@ Delete events
 Troubleshooting
 If the application doesn't start, ensure Docker and Docker Compose are correctly installed.
 If you encounter issues with phpMyAdmin, double-check the login credentials in docker-compose.yml.
-
