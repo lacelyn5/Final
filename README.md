@@ -81,6 +81,7 @@ Select the event_management database (it should already exist). If not, create i
 
 Click the SQL tab and paste the following SQL code:
 
+"
 
 CREATE DATABASE IF NOT EXISTS event_management;
 
@@ -103,6 +104,8 @@ CREATE TABLE IF NOT EXISTS events (
     location VARCHAR(255) NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
+
+"
 
 Click Go to execute the SQL and create the tables manually.
 
