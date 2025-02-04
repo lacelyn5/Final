@@ -22,6 +22,7 @@ Go to your repository on GitHub: https://github.com/lacelyn5/Final.
 Click the green "Code" button.
 Select "Download ZIP" from the options.
 Extract the ZIP file to your desired location on your computer.
+
 2. Build and Start the Containers
 Use Docker Compose to build and start the application containers:
 
@@ -33,11 +34,13 @@ Start the following containers:
 PHP and Apache web server for serving the application
 MySQL for database management
 phpMyAdmin for managing MySQL through a web interface
+
 3. Accessing the Application
 After running docker-compose up --build, you can access the application via the following URLs:
 
 Web Application: http://localhost:8080
 phpMyAdmin: http://localhost:8080
+
 4. Setting Up the Database
 Once the containers are up, you need to set up the MySQL database. Follow these steps:
 
@@ -72,6 +75,7 @@ CREATE TABLE events (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 Click Go to execute the SQL and create the tables.
+
 5. Using the Application
 Once the database is set up, you can start using the application:
 
