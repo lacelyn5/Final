@@ -14,11 +14,12 @@ To get started with the Event Management System, ensure the following are instal
 Docker
 Docker Compose
 A web browser (to access the application and phpMyAdmin)
-1. Clone the Repository
-Clone the project repository to your local machine:
+1. Download as ZIP
 
-git clone <repository_url>
-cd <project_folder>
+Go to your repository on GitHub: https://github.com/lacelyn5/Final.
+Click the green "Code" button.
+Select "Download ZIP" from the options.
+Extract the ZIP file to your desired location on your computer.
 2. Build and Start the Containers
 Use Docker Compose to build and start the application containers:
 
